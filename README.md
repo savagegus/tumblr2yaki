@@ -1,6 +1,6 @@
 # tumblr2yaki
 
-Downloads post content and metadata using the Tumblr API.
+Downloads post content and metadata using the Tumblr API. Then takes the json output and converts video and text blocks to individual index.txt pages with the correct directory structure and the text/html content type.
 
 # Usage
 
