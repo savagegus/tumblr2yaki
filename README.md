@@ -5,6 +5,7 @@ Downloads post content and metadata using the Tumblr API.
 # Usage
 
 ```python tumblrbackup.py > backup.json```
+```python convert2yaki.py```
 
 # Output
 
@@ -41,10 +42,11 @@ Downloads post content and metadata using the Tumblr API.
 {
     "url": "my.tumblr.com",
     "api_key": "myApiKey",
-    "strip_metadata": ["format", "note_count", "post_url", "reblog_key", "date", "blog_name"]
+    "strip_metadata": ["format", "note_count", "post_url", "reblog_key", "date", "blog_name"],
+    "backup_file": "backup.json",
+    "yaki_root": "Yaki/pages/main/blog"
 }
 ```
-
 
 # Tests
 
