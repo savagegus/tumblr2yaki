@@ -1,11 +1,13 @@
-# tumblr-backup
+# tumblr2yaki
 
 Downloads post content and metadata using the Tumblr API.
 
 # Usage
 
-```python tumblrbackup.py > backup.json```
-```python convert2yaki.py```
+```
+python tumblrbackup.py > backup.json
+python convert2yaki.py
+```
 
 # Output
 
